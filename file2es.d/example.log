@@ -1,0 +1,26 @@
+1727340632580513339 [Info] HttpPort is:8091
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+- using env:	export GIN_MODE=release
+- using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/test/version         --> github.com/wilikidi/go_gin_test/controller.Version (4 handlers)
+[GIN-debug] GET    /api/test/showheader      --> github.com/wilikidi/go_gin_test/controller.ShowHeader (4 handlers)
+[GIN-debug] POST   /api/test/common          --> github.com/wilikidi/go_gin_test/controller.Common (4 handlers)
+[GIN-debug] POST   /api/test/community       --> github.com/wilikidi/go_gin_test/controller.Community (4 handlers)
+[GIN-debug] POST   /api/test/message         --> github.com/wilikidi/go_gin_test/controller.GetMessageByName (4 handlers)
+[GIN-debug] POST   /api/test/showdir         --> github.com/wilikidi/go_gin_test/controller.ShowDir (4 handlers)
+[GIN-debug] POST   /api/test/ascii_trasnlate --> github.com/wilikidi/go_gin_test/controller.AsciiTranslate (4 handlers)
+[GIN-debug] GET    /api/test/killself        --> github.com/wilikidi/go_gin_test/controller.KillSelf (4 handlers)
+[GIN-debug] POST   /api/test/showBody        --> github.com/wilikidi/go_gin_test/controller.ShowBody (4 handlers)
+[GIN-debug] POST   /api/test/showForm        --> github.com/wilikidi/go_gin_test/controller.ShowForm (4 handlers)
+[GIN-debug] GET    /api/test/health          --> github.com/wilikidi/go_gin_test/controller.Health (4 handlers)
+[GIN-debug] POST   /api/tvu/decrypt_key      --> github.com/wilikidi/go_gin_test/controller.DecryptSecretKey (4 handlers)
+[GIN-debug] GET    /api/data/student         --> github.com/wilikidi/go_gin_test/controller.GenerateStudent (4 handlers)
+[GIN-debug] GET    /api/data/student/api/health --> github.com/wilikidi/go_gin_test/controller.StudentHealth (4 handlers)
+[GIN-debug] POST   /api/token/access         --> github.com/wilikidi/go_gin_test/controller.Login (4 handlers)
+[GIN-debug] POST   /api/token/check          --> github.com/wilikidi/go_gin_test/controller.Check (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8091
